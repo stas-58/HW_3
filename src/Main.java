@@ -8,9 +8,9 @@ public class Main {
             System.out.println("Значение переменной varShort с типом short равно " + varShort);
         int varInt = 1000000000;
             System.out.println("Значение переменной varInt с типом int равно " + varInt);
-        long varLongo = 1235465465;
-            System.out.println("Значение переменной varLongo с типом long равно " + varLongo);
-        float varFloat = 175.333f;
+        long varLong = 1235465465L;
+            System.out.println("Значение переменной varLong с типом long равно " + varLong);
+        float varFloat = 175.333F;
             System.out.println("Значение переменной varFloat с типом float равно " + varFloat);
         double varDouble = 0.231847686786987;
             System.out.println("Значение переменной varDouble с типом double равно " + varDouble);
@@ -30,8 +30,10 @@ public class Main {
             System.out.println(b);
         float a = 27.12F;
             System.out.println(a);
-        double d = 2.786F;
+        double d = 2.786;
             System.out.println(d);
+        double d1 = 2.786E00;
+        System.out.println(d1);
 
         // Задача 3
         // Три школьных учителя, Людмила Павловна (firstClass), Анна Сергеевна (secondClass) и Екатерина Андреевна       	// (thirdClass), ведут три класса.
@@ -90,7 +92,7 @@ public class Main {
         // Задача 7
             System.out.println();
             System.out.println("** Задача 7 **");
-        float weightLoss = 7;
+        float weightLoss = 7F;
         float dayWeightloss1 = 0.25F;
         float dayWeightloss2 = 0.5F;
         int daysCount1 = (int) (weightLoss / dayWeightloss1);
